@@ -1,0 +1,148 @@
+.header-container
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding-left: 85px;
+}
+
+
+
+.container-1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 150px; 
+    font-size: 16px;
+    
+}
+
+.text-container button{
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: #3882F6;
+    color: white;
+}
+
+.photo-container{
+    display: flex;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.photo-container img{
+border-radius: 50%;
+}
+
+
+.header-links{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-right: 120px;
+}
+
+.header-links a{
+    color: white;
+    text-decoration: none;
+}
+
+.header-container img{
+    border-radius: 50%;
+}
+
+
+.container-2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
+.photo-1,
+.photo-2,
+.photo-3,
+.photo-4
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-2 img{
+    padding-bottom: 30px;
+}
+
+.container-3{
+padding-top: 50px;
+padding-bottom: 50px;
+padding-left: 350px;
+padding-right: 200px;
+background-color: #E5E7EB;
+}
+
+.main-text{
+font-size: 24px ;
+width: 75%;
+text-align: left;
+}
+
+.author-name{
+    text-align: right;
+    font-weight: bold;
+}
+
+.container-4{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-items{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+    border-radius: 15px;
+}
+
+.container-items button{
+    color: white;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: #F9FAF8;
+}
+
+footer{
+   background-color: #1F2937;
+   color: white;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   text-align: center;
+}
